@@ -20,3 +20,5 @@ Route::get('Admin/index','Admin\IndexController@index');
 Route::get('Admin/index/top','Admin\IndexController@top');
 
 Route::get('Admin/index/left','Admin\IndexController@left');
+
+Route::get('Home/index/demo','Home\IndexController@demo');
